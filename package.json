@@ -22,6 +22,7 @@
     "autoprefixer": "^10.4.13",
     "babel-loader": "^8.3.0",
     "postcss": "^8.4.21",
+    "pre-commit": "^1.2.2",
     "prettier": "2.8.4",
     "storybook": "^6.5.16",
     "tailwindcss": "^3.2.6",
@@ -54,6 +55,10 @@
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
-  }
+    "build-storybook": "build-storybook",
+    "format": "yarn prettier --write ."
+  },
+  "pre-commit": [
+    "format"
+  ]
 }
