@@ -1,8 +1,9 @@
 {
-  "name": "components",
-  "version": "1.0.0",
+  "name": "@openkind/components",
+  "version": "1.1.0",
   "description": "Component library",
-  "main": "./src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "https://github.com/openkindhqhq/components",
   "author": "Shiv",
   "license": "MIT",

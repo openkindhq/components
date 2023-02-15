@@ -1,3 +1,4 @@
+import * as React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import { Avatar, AvatarFallback, AvatarImage } from "../components/Avatar";
