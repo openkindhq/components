@@ -7,7 +7,7 @@ export function LightView(props: {
   className?: string;
 }) {
   return (
-    <div className={twMerge("p-32 text-neutral-800", props.className)}>
+    <div className={twMerge("p-32 h-screen text-neutral-800", props.className)}>
       {props.children}
     </div>
   );
@@ -20,7 +20,7 @@ export function DarkView(props: {
   return (
     <div
       className={twMerge(
-        "dark bg-neutral-900 p-32 text-neutral-200",
+        "dark bg-neutral-900 p-32 h-screen text-neutral-200",
         props.className
       )}
       style={{}}
